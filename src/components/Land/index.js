@@ -1,7 +1,7 @@
-import Land from 'react';
-const Account = () => (
+import React from 'react';
+const Land = () => (
   <div>
-    <h1>Account</h1>
+    <h1>Land</h1>
   </div>
 );
 export default Land;
