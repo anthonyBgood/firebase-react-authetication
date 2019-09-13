@@ -5,4 +5,4 @@ https://www.robinwieruch.de/complete-firebase-authentication-react-tutorial#fire
 
 upto 
 
-FIREBASE'S AUTHENTICATION API
+SIGN UP WITH REACT AND FIREBASE
