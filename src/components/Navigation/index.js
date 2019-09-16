@@ -5,6 +5,9 @@ import * as ROUTES from '../../constants/routes'
 const Navigation = () => (
   <ul>
     <li>
+      <Link to={ROUTES.SIGN_UP}> Sign up</Link>
+    </li>
+    <li>
       <Link to={ROUTES.SIGN_IN}> Sign in</Link>
     </li>
     <li>
