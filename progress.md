@@ -3,7 +3,7 @@ tut link:
 https://www.robinwieruch.de/complete-firebase-authentication-react-tutorial#firebases-authentication-api
 
 
-upto 
+##completed
 
 14/9/2019 SIGN UP WITH REACT AND FIREBASE
 
@@ -16,3 +16,9 @@ you have successfully implemented the authentication process with Firebase in Re
 
 17/9/2016
   Session Handling with Higher-Order Components
+  Password Reset and Password Change with Firebase
+
+
+
+##up to:
+  Protected Routes in React with Authorization
