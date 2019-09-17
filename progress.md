@@ -12,3 +12,7 @@ upto
   Session Handling with Firebase/React
 
 you have successfully implemented the authentication process with Firebase in React. Everything in the following sections is considered extra, 
+
+
+17/9/2016
+  Session Handling with Higher-Order Components
