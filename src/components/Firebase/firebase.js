@@ -1,8 +1,14 @@
 
 
 import app from 'firebase/app'
+
+// for authorizing users
 import 'firebase/auth'
 
+// for realtime database
+import 'firebase/database'
+
+// as provided by firebase at setup
 import {firebaseConfig} from './firebaseConfig'
 
 
@@ -11,8 +17,11 @@ class Firebase {
     // Initialize Firebase
     app.initializeApp(firebaseConfig)
 
-    // start authorisation  (driven by the import 'firebase/auth')
+    // start authorization  (driven by the import 'firebase/auth')
     this.auth = app.auth()
+
+    // start database (driven by the import 'firebase/database')
+    this.db = app.database()
   }
 
   // *** Auth API ***
@@ -29,6 +38,12 @@ class Firebase {
   doPasswordUpdate = password => this.auth.doPasswordUpdate(password)
 
   
+  // *** User API ***
+  // single user info
+  user = uid => this.db.ref(`users/${uid}`)
+  // all user info
+  users = () => this.db.ref('users')
+
 }
 export default Firebase 
 

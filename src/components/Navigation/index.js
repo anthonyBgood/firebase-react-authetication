@@ -30,6 +30,9 @@ const NavigationAuth = (props) =>(
       <Link to={ROUTES.ACCOUNT}> Account </Link>
     </li>
     <li>
+      <Link to={ROUTES.ADMIN}> Admin</Link>
+    </li>
+    <li>
       <SignOutButton />
     </li>
   </ul>
@@ -48,15 +51,7 @@ const NavigationNonAuth = () =>(
 )
 
 
-{/* <li>
-  <Link to={ROUTES.ADMIN}> Admin</Link>
-</li>
-<li>
-  <Link to={ROUTES.SIGN_UP}> Sign up</Link>
-</li>
-<li>
-  <Link to={ROUTES.SIGN_IN}> Sign in</Link>
-</li> */}
+
 
 
 export default Navigation;
